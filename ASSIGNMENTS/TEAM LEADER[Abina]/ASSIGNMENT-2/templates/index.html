@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename = 'css/index.css') }}">
+</head>
+<body>
+
+    <div class="nav">
+        <div class="subnav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="{{url_for('signin')}}">Sign in</a></li>
+                <li><a href="{{url_for('signup')}}">Sign up</a></li>
+                <li><a href="{{url_for('about')}}">About</a></li>
+            </ul>
+        </div>
+        <div class="subnav">
+            
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="subcontainer">
+            
+        </div>
+        <div class="subcontainer">
+            <p>
+                A healthy diet rich in fruits, vegetables, whole grains and low-fat dairy can help to reduce your risk 
+                of heart disease by maintaining blood pressure and cholesterol levels.
+                High blood pressure and cholesterol can be a symptom of too much salt and saturated fats in your diet.
+                Eating a portion of oily fish - such as salmon and trout - each week can also help to lower your risk 
+                of developing heart disease. The high levels of omega-3 fatty acids in oily fish are good for heart 
+                health
+            </p>
+        </div>
+    </div>
+    
+</body>
+</html>

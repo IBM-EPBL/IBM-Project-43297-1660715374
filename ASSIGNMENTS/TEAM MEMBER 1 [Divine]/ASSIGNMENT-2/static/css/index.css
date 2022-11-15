@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    max-width: 100vw;
+    background-image: url("../src/food_1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 1.5rem;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.subnav {
+    height: 10vh;
+    width: 50vw;
+}
+
+.subnav ul {
+    display: inline-block;
+}
+
+.subnav ul li {
+    display: inline;
+    margin-left: 45px;
+}
+
+.subnav ul li a {
+    padding: 12px 25px;
+    color: black;
+    background-color: antiquewhite;
+    border-radius: 15px;
+    text-decoration: none;
+    transition: color 0.9s;
+    transition: background-color 0.9s;
+
+}
+
+.subnav ul li a:hover {
+    background-color: white;
+    color: black;
+}
+
+.container {
+    color: black;
+    display: flex;
+}
+
+.subcontainer {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    width: 45vw;
+    height: 80vh;
+    font-size: 1.3rem;
+    font-family: Merriweather, serif;
+    text-align: justify;
+    line-height: 3rem;
+    padding-right: 30px;
+}
